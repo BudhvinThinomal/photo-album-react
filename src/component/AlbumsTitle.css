@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Mate&display=swap");
+
+.albumsTitle {
+  background-image: url("https://images4.alphacoders.com/255/thumb-1920-255596.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+}
+
+.container {
+  width: 100v;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-family: "Mate", serif;
+  padding: 5px 0 30px 0;
+  border-radius: 10px;
+}
+
+.list-container {
+  margin-top: 50px;
+  width: 52vw;
+  height: 500px;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 15px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(48, 46, 46, 0.801);
+}
+
+::-webkit-scrollbar-track {
+  background: hsla(0, 1%, 86%, 0.774);
+}

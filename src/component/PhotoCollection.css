@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@800&family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mate&display=swap");
+
+.photoCollection {
+  background-image: url("https://images4.alphacoders.com/255/thumb-1920-255596.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+}
+.container {
+  width: 100v;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-family: "Mate", serif;
+  padding: 5px 0 30px 0;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 15px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(48, 46, 46, 0.877);
+}
+
+::-webkit-scrollbar-track {
+  background: hsla(0, 1%, 86%, 0.774);
+}
+
+.buttonBack {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: rgba(48, 46, 46, 0.877);
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 8px;
+    margin-right: 80vw;
+    font-size: 14px;
+    padding: 15px;
+    font-family: "Mate", serif;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .buttonBack span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  
+  .buttonBack:hover span {
+    letter-spacing: 1rem;
+    padding-left: 15px;
+  }

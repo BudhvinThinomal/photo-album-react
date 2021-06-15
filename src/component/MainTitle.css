@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@800&family=Roboto+Slab&display=swap");
+
+#mainTitle {
+  background-color: rgba(0, 0, 0, 0.795);
+  font-size: 60px;
+  font-family: "Big Shoulders Stencil Display", cursive;
+  width: 100vw;
+  margin: 20px 0 30px 0;
+  text-align: center;
+}
