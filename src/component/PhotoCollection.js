@@ -5,7 +5,7 @@ import Gallery from "./Gallery";
 import { Link } from "react-router-dom";
 
 function PhotoCollection() {
-    const location = window.location.href;
+  const location = window.location.href;
 	const last = location.split("/");
 	const id = last[last.length - 1];
 
@@ -19,7 +19,7 @@ function PhotoCollection() {
             <Gallery id={id} />
           </div>
         </div>
-        <Link to="/"class="buttonBack" ><span>Home Page</span></Link>
+        <Link to="/"className="buttonBack" ><span>Home Page</span></Link>
       </div>
       
     </div>

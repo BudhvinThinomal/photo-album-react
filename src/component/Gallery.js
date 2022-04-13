@@ -19,8 +19,8 @@ function Gallery({ id }) {
   }, []);
   return (
     <div className="galleryContainer">
-      <div class="gallery">
-        <div class="gallery-item">
+      <div className="gallery">
+        <div className="gallery-item">
           {images.map((e) => (
             <img
               src={e.thumbnailUrl}
